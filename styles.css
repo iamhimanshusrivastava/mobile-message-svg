@@ -1,0 +1,30 @@
+* {
+    margin: 6%;
+    box-sizing: border-box;
+}
+body {
+    text-align: center;
+}
+#first {
+    animation: show 8s ease;
+}
+#second {
+    animation: show 16s ease;
+}
+#third {
+    animation: show 24s ease;
+}
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
